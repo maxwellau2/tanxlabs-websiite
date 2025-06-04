@@ -1,7 +1,5 @@
 // src/components/Navbar.tsx
 
-import React from "react";
-import { Button } from "./components/ui/button";
 import VideoHero from "./components/custom/VideoHero";
 import heroVideo from "./assets/videos/hero-loop.mp4";
 import FeatureCards from "./components/custom/FeatureCards";
@@ -11,7 +9,6 @@ import TrustMarquee from "./components/custom/TrustMarquee";
 // import heroPoster from "./assets/images/hero-poster.jpg";
 import Navbar from "./components/custom/Navbar";
 import { MagicCard } from "./components/magicui/magic-card";
-const NAV_ITEMS = ["About", "Strategies", "Team", "FAQ"];
 
 export default function App() {
   return (

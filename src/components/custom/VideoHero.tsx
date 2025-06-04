@@ -1,5 +1,4 @@
 // src/components/VideoHero.tsx
-import React from "react";
 
 interface VideoHeroProps {
   /** Path to your video file (e.g. "/videos/hero-loop.mp4") */

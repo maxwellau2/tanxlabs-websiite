@@ -1,54 +1,6 @@
-// // src/components/Navbar.tsx
-// import React from "react";
-// import { Button } from "../ui/button";
-
-
-// const NAV_ITEMS = ["About", "Strategies", "Team", "Contact"];
-// const FOCUS_ITEMS = ["Invest", "Careers"];
-
-// export default function Navbar() {
-//   return (
-//     <nav className="bg-white">
-//       {/* 
-//         1) max-w-7xl: caps the content at ~80rem wide (you can choose any max-width, e.g. max-w-5xl, max-w-6xl, max-w-screen-xl, etc.)
-//         2) mx-auto: centers the container horizontally
-//         3) px-6 py-4: vertical/horizontal padding inside the container
-//       */}
-//       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-//         {/* Left side: Logo + Links */}
-//         <div className="flex items-center">
-//           <span className="text-xl font-mono font-semibold">TangentX Labs</span>
-//           <ul className="flex space-x-6 ml-10">
-//             {NAV_ITEMS.map((label) => (
-//               <li key={label}>
-//                 <a
-//                   href={`#${label.toLowerCase()}`}
-//                   className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
-//                 >
-//                   {label}
-//                 </a>
-//               </li>
-//             ))}
-//           </ul>
-//         </div>
-
-//         {/* Right side: “Invest” button */}
-//         <div className="flex items-center space-x-4">
-//           {FOCUS_ITEMS.map((label) => (
-//             <Button key={label} className="bg-black text-white hover:bg-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-black">
-//               {label}
-//             </Button>
-//           ))}
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// src/components/Navbar.tsx
-import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "../ui/button";
+import { useState } from "react";
 
 const NAV_ITEMS = [
   { label: "About", href: "#about" },

@@ -1,5 +1,4 @@
 // src/components/Footer.tsx
-import React from "react";
 import { Linkedin, Twitter, Github } from "lucide-react";
 
 export default function Footer() {

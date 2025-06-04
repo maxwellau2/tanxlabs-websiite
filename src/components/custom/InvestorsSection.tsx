@@ -1,5 +1,4 @@
 // src/components/InvestorsSection.tsx
-import React from "react";
 import { Button } from "../ui/button"; // adjust path if your Shadcn Button is elsewhere
 import { ArrowRight } from "lucide-react";
 

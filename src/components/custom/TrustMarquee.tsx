@@ -1,5 +1,4 @@
 // src/components/TrustMarquee.tsx
-import React from "react";
 // Adjust this import path if your Magic UI marquee lives elsewhere.
 import { Marquee } from "../magicui/marquee";
 

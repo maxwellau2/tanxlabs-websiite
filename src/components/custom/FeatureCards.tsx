@@ -1,5 +1,4 @@
 // src/components/FeatureCards.tsx
-import React from "react";
 import {
   Card,
   CardHeader,
@@ -8,7 +7,6 @@ import {
   CardContent,
 } from "../ui/card";
 import { Leaf, Cpu, Shield, ArrowRight } from "lucide-react";
-import { MagicCard } from "../magicui/magic-card";
 
 const features = [
   {
