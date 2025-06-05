@@ -5,8 +5,6 @@ import heroVideo from "./assets/videos/hero-loop.mp4";
 import FeatureCards from "./components/custom/FeatureCards";
 import InvestorsSection from "./components/custom/InvestorsSection";
 import Footer from "./components/custom/Footer";
-// import TrustMarquee from "./components/custom/TrustMarquee";
-// import heroPoster from "./assets/images/hero-poster.jpg";
 import Navbar from "./components/custom/Navbar";
 import { MagicCard } from "./components/magicui/magic-card";
 
