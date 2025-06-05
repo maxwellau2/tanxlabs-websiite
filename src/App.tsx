@@ -25,7 +25,6 @@ export default function App() {
       <MagicCard gradientColor={"#D9D9D955"} className="p-0  flex-row">
         <FeatureCards />
         <InvestorsSection />
-        <TrustMarquee />
       </MagicCard>
 
     </div>

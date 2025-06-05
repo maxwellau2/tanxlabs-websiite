@@ -14,7 +14,7 @@ export default function InvestorsSection() {
 
         {/* Subheading */}
         <p className="text-xl sm:text-2xl md:text-3xl font-semibold text-black mb-8">
-          Get boosted return today
+          Get boosted returns today
         </p>
 
         {/* CTAs: a primary button and a text link */}
